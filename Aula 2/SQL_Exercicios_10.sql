@@ -1,0 +1,29 @@
+#Exercicio 1
+select nome from clientes order by nome asc;
+
+#Exercicio 2
+select nome from clientes order by nome desc;
+
+#Exercicio 3 
+select idade from clientes order by idade asc;
+
+#Exercicio 4
+select idade from clientes order by idade desc;
+
+#Exercicio 5
+select * from clientes limit 5;
+
+#Exercicio 6
+select idade, nome from clientes order by idade desc limit 3;
+
+#Exercicio 7 
+select nome, idade from clientes order by idade asc limit 2;
+
+#Exercicio 8
+select  distinct cidade from clientes order by cidade asc ;
+
+#Exercicio 9
+select * from clientes order by cidade asc limit 10;
+
+#Exercicio 10
+select nome, cidade, idade from clientes where cidade = 'Rio de janeiro' order by idade desc limit 5 ;
